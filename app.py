@@ -18,6 +18,15 @@ def benefit():
   return render_template("benefit.html")
 
 
+@app.route('/mypage')
+def mypage():
+  return render_template("mypage.html")
+
+
+@app.route('/badauto')
+def badauto():
+  return render_template("badauto.html")
+
 if __name__ == "__main__":
   app.run(debug=True)
 

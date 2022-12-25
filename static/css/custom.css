@@ -23,3 +23,9 @@
   padding: 16px, 24px;
   position: relative;
 }
+
+.image_shadow{
+  border: 2px solid darkgray;
+  border-radius: 6px;
+  width: auto;
+}
