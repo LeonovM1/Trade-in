@@ -6,82 +6,130 @@
 
 {% block body %}
 <div class="container">
-    <div class="container marketing">
+  <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-        <div class="col-lg-4">
-            <img src="{{ url_for('static', filename='img/Trade-inFinal.jpg' ) }}" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="{{ url_for('static', filename='img/Trade-inFinal.jpg' ) }}" class="bd-placeholder-img rounded-circle"
+          width="140" height="140" role="img" aria-label="Placeholder: 140x140">
+        <title>Placeholder</title>
 
-            <h2 class="fw-normal">Чем выгодна программа Trade-In?</h2>
-            <p>В этой статье мы вкратце опишем Вам, почему Trade-In выгоден, его множество плюсов и ничтожное колличество минусов.</p>
-            <p><a class="btn btn-secondary" href="/benefit">Подробнее »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title>
+        <h2 class="fw-normal">Чем выгодна программа Trade-In?</h2>
+        <p>В этой статье мы вкратце опишем Вам, почему Trade-In выгоден, его множество плюсов и ничтожное колличество
+          минусов.</p>
+        <p><a class="btn btn-secondary" href="/benefit">Подробнее »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+          class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+          aria-label="Placeholder: 140x140">
+        <title>Placeholder</title>
 
-            <h2 class="fw-normal">Михаил Леонов</h2>
-            <br>
-            <p>Профиль</p>
-            <br>
-            <br>
-            <p><a class="btn btn-secondary" href="/mypage">Подробнее »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2 class="fw-normal">Михаил Леонов</h2>
+        <br>
+        <p>Профиль</p>
+        <br>
+        <br>
+        <p class="mybtn"><a class="btn btn-secondary" href="/mypage">Подробнее »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{{ url_for('static', filename='img/byAuto.jpg' ) }}" class="bd-placeholder-img rounded-circle"
+          width="140" height="140" role="img" aria-label="Placeholder: 140x140">
+        <title>Placeholder</title>
 
-            <h2 class="fw-normal">Пример плохой продажи авто</h2>
-            <p>Расскажем и покажем почему покупка автомобиля на вторичном рынке чревато проблемами</p>
-            <p><a class="btn btn-secondary" href="/badauto">Подробнее »</a></p>
-        </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+        <h2 class="fw-normal">Пример плохой продажи авто</h2>
+        <p>Расскажем и покажем почему покупка автомобиля на вторичном рынке чревато проблемами</p>
+        <p class="mybtn1"><a class="btn btn-secondary" href="/badauto">Подробнее »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
 
 
-        <!-- START THE FEATURETTES -->
+    <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-        <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-        </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Что вообще такое Трейд-ин? <span class="text-muted">Простыми
+            словами</span></h2>
+        <p class="lead">Трейд-ин (trade in) — система покупки, при которой покупатель отдаёт продавцу старый товар в
+          зачёт части стоимости нового. Проще говоря, трейд-ин — это обмен старого товара на новый с доплатой. По
+          трейд-ин можно приобрести не только автомобиль, но и смартфон, бытовую технику, промышленное оборудование и
+          др.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{{ url_for('static', filename='img/Front1.png' ) }}"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+          role="img" aria-label="Placeholder: 500x500">
+        <title>Placeholder</title>
 
-        </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-        </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-        </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-        </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
+      </div>
     </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Что Вам понадобится предоставить? <span class="text-muted">Список
+            требований.</span></h2>
+        <p class="lead">После того, как менеджер подробнее изучит документы на ТС и законность вашего владения им. Вас
+          попросят предоставить:</p>
+        <ul>
+          <li>личный документ, удостоверяющий личность (паспорт или водительское удостоверение);</li>
+          <li>паспорт ТС;</li>
+          <li>свидетельство о регистрации автомобиля в ГИБДД;</li>
+          <li>при необходимости, нотариально заверенную доверенность – только по такому документу может продать авто
+            доверенное лицо.</li>
+        </ul>
+        <p class="lead">По базе сотрудник автосалона изучит историю автомобиля :</p>
+        <ul>
+          <li>сколько было хозяев по ПТС, правильность оформления и наличие всех необходимых записей и штампов;</li>
+          <li>ДТП, в которые попадало авто;</li>
+          <li>обременение (не находится ли ТС в залоге у банка или не проходит ли по судебному иску);</li>
+          <li>заменялись ли крупные номерные агрегаты (двигатель, коробка передач).</li>
+        </ul>
+        <blockquote class="blockquote-1">
+          <p class="lead">Если все в порядке, менеджер, проконсультировавшись с автомеханиками, рассчитает цену и
+            объявит ее вам.</p>
+        </blockquote>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span>
+        </h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+          intended to be actually read, simply here to give you a better view of what this would look like with some
+          actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
 </div>
 {% endblock %}

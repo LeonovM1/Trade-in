@@ -29,3 +29,13 @@
   border-radius: 6px;
   width: auto;
 }
+
+.mybtn{
+  position: relative;
+  top: 15px;
+}
+
+.mybtn1{
+  position: relative;
+  top: 20px;
+}
