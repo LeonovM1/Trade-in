@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block body %}
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+      <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" width="900" height="450"
+          src="{{ url_for('static', filename='img/bmw i8.jpg') }}" alt="photo"></div>
+      <div class="col-md-6">
+        <div class="small mb-1">Артикул: №003</div>
+        <h1 class="display-5 fw-bolder">BMW i8 I</h1>
+        <div class="fs-5 mb-5">
+          <span class="text-decoration-line-through">9.500.000 Р</span>
+          <span>7.500.000 Р</span>
+        </div>
+        <p class="lead">BMW Vision Efficient Dynamics, BMW i8 — автомобиль компании BMW. Концепт-кар был представлен в
+          2009 году, первый серийный образец — на Франкфуртском автосалоне в сентябре 2013 год.
+          <br>
+          <br>
+          BMW Vision Efficient Dynamics представляет собой полноприводное двухдверное купе. Шасси и подвеска сделаны из
+          алюминия, крыша и двери выполнены из поликарбоната. Коэффициент аэродинамического сопротивления 0,26.
+          <br>
+          <br>
+          Приборная панель расположена на центральном Head-up дисплее и лобовом стекле. Такое сочетание создаёт
+          впечатление трёхмерного пространства. Наиболее важная информация, такая как показание спидометра и маршрут,
+          выдаётся на лобовое стекло в фоновом виде, что обеспечивает наибольшую безопасность, так как водителю не
+          приходится смотреть на панель приборов.
+        </p>
+        <div class="d-flex">
+          <button class="btn btn-outline-dark flex-shrink-0" type="submit" onclick="alert('Заказ принят в обработку, с Вами обязательно свяжутся')">
+            <i class="bi-cart-fill me-1"></i>
+            Заказать
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

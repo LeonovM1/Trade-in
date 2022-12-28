@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block body %}
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+      <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" width="900" height="450"
+          src="{{ url_for('static', filename='img/bmw m5.webp') }}" alt="..."></div>
+      <div class="col-md-6">
+        <div class="small mb-1">Артикул: №004</div>
+        <h1 class="display-5 fw-bolder">BMW M5 Competition VI</h1>
+        <div class="fs-5 mb-5">
+          <span class="text-decoration-line-through">9.900.000 Р</span>
+          <span>6.500.000 Р</span>
+        </div>
+        <p class="lead">Доработанная подразделением BMW Motorsport версия автомобиля BMW пятой серии. Первое поколение
+          было представлено в 1986 году. Последующие поколения M5 сменялись совместно с каждым поколением автомобилей
+          пятой серии, включающей E34, E39, E60/61, F10. С началом производства модели G30, после поступления первых
+          заказов, с марта 2018 года началось также производство её M-версии.
+          <br>
+          <br>
+          Премьера состоялась 21 августа 2017 года на Франкфуртском автосалоне. М5 с индексом F90 оснащена двигателем v8
+          twin turbo на 4.4 литра, выдающий 600 лошадиных сил при стандартной модификации двигателя, и 625 сил при
+          слегка улучшенной версии Competition. Новое поколение было оснащено полным приводом.
+        </p>
+        <div class="d-flex">
+          <button class="btn btn-outline-dark flex-shrink-0" type="submit" onclick="alert('Заказ принят в обработку, с Вами обязательно свяжутся')">
+            <i class="bi-cart-fill me-1"></i>
+            Заказать
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

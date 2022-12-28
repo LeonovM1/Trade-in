@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block body %}
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+      <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" width="900" height="450"
+          src="{{ url_for('static', filename='img/moskvich 3.jpg') }}" alt="..."></div>
+      <div class="col-md-6">
+        <div class="small mb-1">Артикул: №005</div>
+        <h1 class="display-5 fw-bolder">Moskvich(Москвич) 3</h1>
+        <div class="fs-5 mb-5">
+          <span class="text-decoration-line-through">3.000.000 Р</span>
+          <span>1.970.000 Р</span>
+        </div>
+        <p class="lead">легковой автомобиль, серийно собираемый из китайских компонентов с ноября 2022 года на заводе
+          «Москвич». Конвейер завода «Рено-Россия» ещё не задействован. Автомобиль представляет собой китайский
+          кроссовер Sehol X4 (JAC JS4), транспортируемый в Россию из Китая в разобранном виде и затем собираемый методом
+          крупноузловой сборки.
+          <br>
+          <br>
+          «Москвич 3» является лицензионной копией автомобиля Sehol X4 (JAC JS4) бренда Sehol китайской
+          компании JAC Motors и также первой моделью, выпускаемой под возрождённой спустя более чем 20 лет маркой
+          «Москвич». Сборка началась 23 ноября 2022 года.
+          <br>
+          <br>
+          Согласно плану, до конца 2022 года должно быть выпущено 600 автомобилей. Предполагается, что новые машины
+          поступят в продажу в Москве в январе 2023 года, а в других
+          регионах — в марте того же года. По словам вице-мэра Москвы Максима Ликсутова, «Москвич 3» может поступить
+          в продажу уже с 26 декабря 2022 года.
+        </p>
+        <div class="d-flex">
+          <button class="btn btn-outline-dark flex-shrink-0" type="submit" onclick="alert('Заказ принят в обработку, с Вами обязательно свяжутся')">
+            <i class="bi-cart-fill me-1"></i>
+            Заказать
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

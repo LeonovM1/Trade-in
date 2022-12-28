@@ -27,6 +27,41 @@ def mypage():
 def badauto():
   return render_template("badauto.html")
 
+
+@app.route('/catalog')
+def catalog():
+  return render_template("catalog.html")
+
+
+@app.route('/Audi_r8')
+def Audi_r8():
+  return render_template("auto/Audi_r8.html")
+
+
+@app.route('/Audi_s8')
+def Audi_s8():
+  return render_template("auto/Audi_s8.html")
+
+
+@app.route('/Bmw_i8')
+def Bmw_i8():
+  return render_template("auto/Bmw_i8.html")
+
+
+@app.route('/Bmw_m5')
+def Bmw_m5():
+  return render_template("auto/Bmw_m5.html")
+
+
+@app.route('/Moskvich')
+def Moskvich():
+  return render_template("auto/Moskvich.html")
+
+
+@app.route('/tesla')
+def tesla():
+  return render_template("auto/tesla.html")
+
 if __name__ == "__main__":
   app.run(debug=True)
 

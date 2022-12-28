@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block body %}
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+      <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" width="900" height="450"
+          src="{{ url_for('static', filename='img/audi s8.jpg') }}" alt="photo"></div>
+      <div class="col-md-6">
+        <div class="small mb-1">Артикул: №002</div>
+        <h1 class="display-5 fw-bolder">Audi S8 III (D4)</h1>
+        <div class="fs-5 mb-5">
+          <span class="text-decoration-line-through">4.500.000 Р</span>
+          <span>3.900.000 Р</span>
+        </div>
+        <p class="lead">Премьера третьего поколения S8 состоялась 1 декабря 2009 года в Майами на выставке Design
+          Miami. Тремя месяцами позже новая модель появилась на немецком рынке.
+          <br>
+          <br>
+          Премьера нового поколения в Европе состоялась на Женевском автосалоне 2010 года. Новый S8 «подрос» на 10
+          см до 5,15 м. Дизайн Audi S8 практически не изменился, за исключением более выраженной линии выштамповки,
+          именуемой «линией торнадо», проходящей вдоль боковой части кузова.
+          <br>
+          <br>
+          Увидевшая свет в 2010 году базовая модель Audi S8 оснащается 6-цилиндровым двигателем 2,8 л FSI и вариатором
+          CVT (multitronic). Модульная
+          платформа с продольным расположением силового агрегата обеспечивает компактность конструкции, что позволило
+          сместить переднюю ось Audi S8 на 15 см вперёд. Одновременно это позволило улучшить развесовку по осям.
+        </p>
+        <div class="d-flex">
+          <button class="btn btn-outline-dark flex-shrink-0" type="submit" onclick="alert('Заказ принят в обработку, с Вами обязательно свяжутся')">
+            <i class="bi-cart-fill me-1"></i>
+            Заказать
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

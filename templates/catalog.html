@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Выгода Trade-In
+{% endblock %}
+
+{% block body %}
+
+<section style="background-color: #eee;">
+  <div class="container">
+    <div class="container marketing">
+      <div class="col-md-0">
+        <div class="container bootstrap snipets">
+          <h1 class="text-center text-muted">Product catalog</h1>
+          <div class="row flow-offset-1 g-1 overflow-hidden gx-3">
+            <div class="col-xs-6 col-md-4 card mb-3">
+              <div class="product tumbnail thumbnail-3" style="height: 375px;"><br><a href="/Audi_r8"><img width="350" height="280"
+                    src="{{ url_for('static', filename='img/audi r8.jpg') }}" alt=""></a>
+                <div class="caption">
+                  <h6><a href="/Audi_r8">Audi r8 V10 I</a></h6><span class="price">
+                    <del>5.290.000 Р</del></span><span class="price sale">4.490.000 Р</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-4 card mb-3">
+              <div class="product tumbnail thumbnail-3" style="height: 375px;"><br><a href="/Audi_s8"><img width="350" height="280"
+                    src="{{ url_for('static', filename='img/audi s8.jpg') }}" alt=""></a>
+                <div class="caption">
+                  <h6><a href="/Audi_s8">Audi S8 III (D4)</a></h6><span class="price">
+                    <del>4.500.000 Р</del></span><span class="price sale">3.900.000 Р</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-4 card mb-3">
+              <div class="product tumbnail thumbnail-3" style="height: 375px;"><br><a href="/Bmw_i8"><img width="350" height="280"
+                    src="{{ url_for('static', filename='img/bmw i8.jpg') }}" alt=""></a>
+                <div class="caption">
+                  <h6><a href="/Bmw_i8">BMW i8 I</a></h6><span class="price">
+                  <del>9.500.000 Р</del></span><span class="price sale">7.500.000 Р</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-4 card mb-3">
+              <div class="product tumbnail thumbnail-3" style="height: 375px;"><br><a href="/Bmw_m5"><img width="350" height="280"
+                    src="{{ url_for('static', filename='img/bmw m5.webp') }}" alt=""></a>
+                <div class="caption">
+                  <h6><a href="/Bmw_m5">BMW M5 Competition VI</a></h6><span class="price">
+                    <del>9.990.000 Р</del></span><span class="price sale">6.500.000 Р</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-4 card mb-3">
+              <div class="product tumbnail thumbnail-3" style="height: 375px;"><br><a href="/Moskvich"><img width="350" height="280"
+                    src="{{ url_for('static', filename='img/moskvich 3.jpg') }}" alt=""></a>
+                <div class="caption">
+                  <h6><a href="/Moskvich">Moskvich 3</a></h6><span class="price">
+                    <del>3.000.000 Р</del></span><span class="price sale">1.970.000 Р</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-4 card mb-3">
+              <div class="product tumbnail thumbnail-3" style="height: 375px;"><br><a href="/tesla"><img width="350" height="280"
+                    src="{{ url_for('static', filename='img/tesla model x.jpg') }}" alt=""></a>
+                <div class="caption">
+                  <h6><a href="/tesla">Tesla Model X 90D I</a></h6><span class="price">
+                    <del>7.200.000 Р</del></span><span class="price sale">4.500.000 Р</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}
