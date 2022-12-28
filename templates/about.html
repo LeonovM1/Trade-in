@@ -6,6 +6,21 @@
 
 {% block body %}
 <div class="container marketing">
-    <h1>страница про нас</h1>
+  <div class="service-page__content">
+    <p><span><strong>Trade-in Auto - Центр №1 по совокупному объему продаж в
+          Москве.</strong><br>Каждый третий новый автомобиль покупают у нас.&nbsp;Потому что только у
+        нас:&nbsp;</span></p>
+    <ul>
+      <li><span>Более&nbsp;<strong><span>800 автомобилей</span></strong>&nbsp;с ПТС в наличии. Оформите заказ и
+          проверьте сами!</span></li>
+      <li><span>Кредит&nbsp;<strong><span>без первого взноса</span></strong>&nbsp;или
+          под&nbsp;<span><strong>0%</strong></span>&nbsp;годовых.</span></li>
+      <li><span>Примем Ваш автомобиль в зачет нового на условиях, лучше рыночных</span></li>
+      <li><span>Собственный кредитный и страховой отдел с широчайшим выбором банков и страховых компаний</span></li>
+      <li><span>Тест-драйв всего модельного ряда.</span></li>
+      <li><span>Специальные тарифы на КАСКО от ведущих страховых компаний!</span></li>
+    </ul>
+    <p><img src="{{ url_for('static', filename='img/about.jpg') }}" alt="" width="845" height="455"></p>
+  </div>
 </div>
 {% endblock %}
