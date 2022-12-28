@@ -5,17 +5,17 @@
   margin-left: 15px;
 }
 
-.login{
+.login {
   border: 2px solid #0d6efd;
   border-radius: 15px;
   width: auto;
 }
 
-.articles_block{
+.articles_block {
   margin-bottom: 40px;
 }
 
-.blockquote-1{
+.blockquote-1 {
   border-left: 4px solid #0d6efd;
   font-size: 17px;
   font-style: italic;
@@ -24,18 +24,18 @@
   position: relative;
 }
 
-.image_shadow{
+.image_shadow {
   border: 2px solid darkgray;
   border-radius: 6px;
   width: auto;
 }
 
-.mybtn{
+.mybtn {
   position: relative;
   top: 15px;
 }
 
-.mybtn1{
+.mybtn1 {
   position: relative;
   top: 20px;
 }
@@ -56,7 +56,7 @@
   color: #455a64;
 }
 
-.product .caption .price + .price {
+.product .caption .price+.price {
   margin-left: 15px;
 }
 
@@ -74,13 +74,14 @@
   display: inline-block;
 }
 
-.single-product .rating .fa-star, .single-product .rating .fa-star-o {
+.single-product .rating .fa-star,
+.single-product .rating .fa-star-o {
   font-size: 16px;
   color: #f7d4a0;
   margin-left: 2px;
 }
 
-.single-product .rating + * {
+.single-product .rating+* {
   margin-left: 15px;
 }
 
@@ -109,17 +110,17 @@
   font-size: 33px;
 }
 
-.single-product .caption * + .price {
+.single-product .caption *+.price {
   margin-left: 10.8%;
 }
 
 @media (max-width: 1199px) {
-  .single-product .caption * + .price {
+  .single-product .caption *+.price {
     margin-left: 7.8%;
   }
 }
 
-.single-product .caption * + .quantity {
+.single-product .caption *+.quantity {
   margin-left: 26px;
 }
 
@@ -132,7 +133,8 @@
   text-align: left;
 }
 
-.single-product .caption .info-list dt, .single-product .caption .info-list dd {
+.single-product .caption .info-list dt,
+.single-product .caption .info-list dd {
   display: inline-block;
   line-height: 25px;
   padding-top: 10px;
@@ -168,6 +170,7 @@
   .single-product .table-mobile tr {
     padding-top: 0;
   }
+
   .single-product .table-mobile tr:before {
     display: none;
   }
@@ -222,3 +225,8 @@
   color: #455a64;
 }
 
+.one-question-answer {
+	background-color: #ffffff;
+    padding: 20px 20px 12px 20px;
+	margin-bottom: 20px;
+}

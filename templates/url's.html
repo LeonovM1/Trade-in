@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block body %}
+
+<div class="container marketing">
+  <h3>В дальнейшем тут будет ссылка на Наше Desktop приложение, при помощи которого вы сможете не только все то, что и
+    на сайте, но так же и переписываться в чате с менеджерами, иметь доступ к истории заказа напрямую из приложения и
+    многое другое.
+
+  </h3>
+  <img src="{{ url_for('static', filename='img/comig_soon.jpeg') }}" width="900" height="550" style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+
+{% endblock %}

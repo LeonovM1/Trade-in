@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Регистрация
+{% endblock %}
+
+{% block body %}
+<section class="pb-4">
+  <div class="bg-white border rounded-5 container">
+
+    <section class="w-100 p-4 d-flex justify-content-center pb-4">
+      <div class="tab-pane" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+        <form>
+
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="registerName" class="form-control" />
+            <label class="form-label" for="registerName">Имя</label>
+          </div>
+
+          <!-- Username input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="registerUsername" class="form-control" />
+            <label class="form-label" for="registerUsername">Фамилия</label>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="registerEmail" class="form-control" />
+            <label class="form-label" for="registerEmail">Email</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="registerPassword" class="form-control" />
+            <label class="form-label" for="registerPassword">Пароль</label>
+          </div>
+
+          <!-- Repeat Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="registerRepeatPassword" class="form-control" />
+            <label class="form-label" for="registerRepeatPassword">Повторите пароль</label>
+          </div>
+
+          <!-- Checkbox -->
+
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-3">Войти</button>
+        </form>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- Pills content -->
+
+{% endblock %}

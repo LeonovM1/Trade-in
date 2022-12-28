@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block body %}
+<section style="background-color: #eee;">
+<div class="container marketing">
+  <div class="question-answer-block" itemscope="" itemtype="https://schema.org/FAQPage">
+    <br>
+    <h2>Общие вопросы:</h2>
+    <hr class="featurette-divider">
+    <div class="one-question-answer col-xs-6 card mb-3" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="question">
+        <p>
+          <span itemprop="name"><span class="question-label">❓ Вопрос:</span>
+            Могу ли я приобрести автомобиль за наличные?
+          </span>
+        </p>
+      </div>
+      <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">
+          <span class="answer-label">Ответ:</span>
+          Да, можно купить технику за наличные. При желании клиент сдает старую машину и получает скидку
+          (trade-in).
+        </p>
+      </div>
+    </div>
+
+    <div class="one-question-answer col-xs-6 card mb-3" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="question">
+        <p>
+          <span itemprop="name"><span class="question-label">❓ Вопрос:</span>
+            Могу ли я забронировать понравившийся автомобиль?
+          </span>
+        </p>
+      </div>
+      <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">
+          <span class="answer-label">Ответ:</span>
+          Да, можете. Клиент оставляет заявку на выбранную технику и вносит предоплату. Перед тем как приехать в салон,
+          уточняет наличие.
+        </p>
+      </div>
+    </div>
+    <h2>Обмен авто:</h2>
+    <hr class="featurette-divider">
+    <div class="one-question-answer col-xs-6 card mb-3" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="question">
+        <p>
+          <span itemprop="name"><span class="question-label">❓ Вопрос:</span>
+            В чем разница между обменом авто и системой «Трейд-Ин»?
+          </span>
+        </p>
+      </div>
+      <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">
+          <span class="answer-label">Ответ:</span>
+          Фактически система Trade-In и обмен автомобилей — это одно и то же.
+        </p>
+      </div>
+    </div>
+
+    <div class="one-question-answer col-xs-6 card mb-3" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="question">
+        <p>
+          <span itemprop="name"><span class="question-label">❓ Вопрос:</span>
+            Какие автомобили могут участвовать в программе «Трейд-Ин»?
+          </span>
+        </p>
+      </div>
+      <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">
+          <span class="answer-label">Ответ:</span>
+          По Trade-In покупатель может сдать почти любую машину.
+        </p>
+      </div>
+    </div>
+
+    <div class="one-question-answer col-xs-6 card mb-3" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="question">
+        <p>
+          <span itemprop="name"><span class="question-label">❓ Вопрос:</span>
+            Какой автомобиль я могу приобрести по системе «Трейд-Ин»?
+          </span>
+        </p>
+      </div>
+      <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">
+          <span class="answer-label">Ответ:</span>
+          По системе Trade-In можно купить любое транспортное средство, представленное в каталоге.
+        </p>
+      </div>
+    </div>
+
+    <div class="one-question-answer col-xs-6 card mb-3" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="question">
+        <p>
+          <span itemprop="name"><span class="question-label">❓ Вопрос:</span>
+            Сколько времени занимает процедура сделки по системе «Трейд-Ин»?
+          </span>
+        </p>
+      </div>
+      <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">
+          <span class="answer-label">Ответ:</span>
+          Максимальный срок оформления сделки Trade-In, которое включает сдачу своей техники и покупку другой,
+          составляет 1 день.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

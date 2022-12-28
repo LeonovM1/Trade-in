@@ -62,6 +62,26 @@ def Moskvich():
 def tesla():
   return render_template("auto/tesla.html")
 
+
+@app.route('/urls')
+def urls():
+  return render_template("url's.html")
+
+
+@app.route('/FAQs')
+def FAQs():
+  return render_template("FAQs.html")
+
+
+@app.route('/login')
+def login():
+  return render_template("login.html")
+
+
+@app.route("/registration")
+def registration():
+  return render_template("registration.html")
+
 if __name__ == "__main__":
   app.run(debug=True)
 

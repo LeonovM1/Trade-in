@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Авторизация
+{% endblock %}
+
+{% block body %}
+
+<section class="pb-4">
+  <div class="bg-white border rounded-5 container">
+
+    <section class="w-100 p-4 d-flex justify-content-center pb-4">
+      <!-- Pills content -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+          <form>
+            <!-- Email input -->
+            <br>
+            <br><div class="form-outline mb-4">
+              <input type="email" id="loginName" class="form-control" />
+              <label class="form-label" for="loginName">Логин</label>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="loginPassword" class="form-control" />
+              <label class="form-label" for="loginPassword">Пароль</label>
+            </div>
+
+            <!-- 2 column grid layout -->
+            <div class="row mb-4">
+              <div class="col-md-6 d-flex justify-content-center">
+                <!-- Checkbox -->
+              </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4" style="display: block; margin-left: auto; margin-right: auto;" onclick="alert('Вы вошли в систему')">Войти</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>Еще нет аккаунта? <a href="/registration">Зарегистрируйтесь</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+{% endblock %}
