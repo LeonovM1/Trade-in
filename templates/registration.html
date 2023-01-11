@@ -14,31 +14,31 @@
 
           <!-- Name input -->
           <div class="form-outline mb-4">
-            <input type="text" id="registerName" class="form-control" />
+            <input type="text" id="registerName" class="form-control" pattern="^[А-Яа-яЁё\s]+$" required>
             <label class="form-label" for="registerName">Имя</label>
           </div>
 
           <!-- Username input -->
           <div class="form-outline mb-4">
-            <input type="text" id="registerUsername" class="form-control" />
+            <input type="text" id="registerUsername" class="form-control" pattern="^[А-Яа-яЁё\s]+$" required>
             <label class="form-label" for="registerUsername">Фамилия</label>
           </div>
 
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input type="email" id="registerEmail" class="form-control" />
+            <input type="email" id="registerEmail" class="form-control" required>
             <label class="form-label" for="registerEmail">Email</label>
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-4">
-            <input type="password" id="registerPassword" class="form-control" />
+            <input type="password" id="registerPassword" class="form-control" pattern="^[А-Яа-яЁё\s]+$" required>
             <label class="form-label" for="registerPassword">Пароль</label>
           </div>
 
           <!-- Repeat Password input -->
           <div class="form-outline mb-4">
-            <input type="password" id="registerRepeatPassword" class="form-control" />
+            <input type="password" id="registerRepeatPassword" class="form-control" pattern="^[А-Яа-яЁё\s]+$" required>
             <label class="form-label" for="registerRepeatPassword">Повторите пароль</label>
           </div>
 
